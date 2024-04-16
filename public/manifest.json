@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "version": "1.0.0",
+  "name": "Hello Tabs",
+  "description": "Hello Tabs es una extensión intuitiva y práctica que te permite organizar y guardar tus pestañas de manera eficiente. Con Hello Tabs, puedes agrupar pestañas relacionadas en conjuntos personalizados, lo que te permite retomar tu trabajo justo donde lo dejaste, incluso al día siguiente. Ya no tendrás que preocuparte por perder el rastro de tus proyectos o investigaciones. ¡Simplifica tu navegación y maximiza tu productividad con Hello Tabs!",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "permissions": [
+    "storage",
+    "tabs"
+  ],
+  "action": {
+    "default_popup": "index.html"
+  },
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ]
+}

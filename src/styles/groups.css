@@ -1,0 +1,65 @@
+.groups-items{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  gap:  .5rem;
+  padding-bottom: 1rem;
+  margin-top: .5rem;
+}
+
+.group-item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .8rem;
+  background-color: #0153cf56;
+  padding: .5rem .8rem;
+  border: 1px solid var(--first-color);
+  cursor: pointer;
+  transition: all .3s ease;
+  max-width:200px;
+
+}
+
+.group-item:hover{
+  background-color: #0153cfaf;
+}
+
+.group-item__btns{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.group-item__title{
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: var(--white-color);
+  max-width: 120px;
+  overflow: hidden;
+   white-space: nowrap; 
+text-overflow: ellipsis;
+}
+
+.group-item__btn{
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+}
+
+
+.group-item__btn svg{
+  width: 1.5rem;
+  height: 1.5rem;
+  color: var(--text-color);
+}
+
+.group-item__btn:hover > svg{
+  color: var(--white-color);
+}
