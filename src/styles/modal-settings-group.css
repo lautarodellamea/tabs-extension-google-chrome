@@ -1,19 +1,23 @@
 .modal-settings-groups{
-  background-color: rgba(0, 0, 0, 0.696);
+  background-color: var(--bg-color);
   backdrop-filter: blur(8px);
-  position: fixed;
+  position: absolute;
   top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   width: 100%;
   height: 100%;
+  max-height: max-content;
   align-self: center;
   z-index: 100;
   display: none;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
   gap: 1rem;
-  padding: 1rem;
-  padding-top: 4rem;
+  padding-bottom: 1rem;
+  /* padding: 1rem; */
+  padding-top: 1rem;
 }
 
 .modal-settings-groups--active{

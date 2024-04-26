@@ -78,7 +78,8 @@ a{
   color: var(--white-color);
   font-weight: 600;
   transition: all  .3s ease;
-  margin-top: 1.5rem;
+  margin-top: .5rem;
+  
 }
 .input-group__button--red:hover{
   background-color: #cc072b;
